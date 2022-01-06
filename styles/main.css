@@ -1,0 +1,57 @@
+body {
+    background-color: steelblue;
+
+}
+
+h1 {
+    font-size: 100;
+    color: blue;
+
+}
+
+h2 {
+    color: blue;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: rgb(122, 119, 119);
+
+}
+
+h3 {
+    color: blueviolet;
+    text-decoration-line:overline;
+    text-decoration-style:dashed;
+    text-decoration-color: rgb(231, 12, 30);
+
+}
+
+.fish-list {
+    font-style: italic;
+
+}
+
+.fish-image {
+    height: 100px;
+    width: auto;
+    float: left;
+    padding-right: 8mm;
+
+}
+
+.travel-tips {
+    border:skyblue solid;
+    
+}
+
+.havest-location {
+    text-shadow: darkgreen;
+    text-justify: auto;
+    text-align: center;
+
+}
+
+.maintenance-tip {
+    font-weight: bold   ;
+
+}
+
