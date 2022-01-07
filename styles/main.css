@@ -1,13 +1,23 @@
 body {
-    background-color: steelblue;
+    /* background-color: steelblue; */
+    background-image: url("/images/ocean.jpg");
+    background-size:cover;
 
 }
 
-h1 {
+header {
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 1.5cm;
+}
+
+/* h1 {
     font-size: 100;
     color: blue;
     
-}
+} */
 
 h2 {
     color: blue;
@@ -41,11 +51,13 @@ h2 {
     width: 150px;
     float: left;
     padding-right: 8mm;
+    margin-left: 5mm;
 
 }
 
 .travel-tips {
     border:skyblue solid;
+    margin: 5mm;
     
 }
 
@@ -54,6 +66,7 @@ h2 {
     text-justify: auto;
     text-align: center;
     border:skyblue solid;
+    margin: 5mm;
 
 }
 
@@ -71,26 +84,49 @@ ul {
 }
 
 .maintenance-tip {
-    font-weight: bold   ;
+    font-weight: bold;
+    margin-left: 5mm;
 
 }
 
 .column-1 {
     float: left;
-    padding-right: 150px;
+    /* padding-right: 50px; */
+    margin-right: 3cm;
+    width: fit-content;
     flex-direction: column;
+    border: oldlace;
+    border-width: 5px;
+    border-style: solid;
 
 }
 
 .column-2 {
     float: left;
-    padding-right: 180px;
-    padding-top: 80px;
+    /* padding-right: 50px; */
+    margin-right: 3cm;
+    width: fit-content;
+    /* flex-direction: column; */
+    border: oldlace;
+    border-width: 5px;
+    border-style: solid;
+    padding-top: 50px;
 
 }
 
 .column-3 {
-    /* float: left; */
-    padding-top: 80px;
+    float: left;
+    width: fit-content;
+    flex-direction: column;
+    border: oldlace;
+    border-width: 5px;
+    border-style: solid;
+    padding-top: 50px;
 
 }
+
+/* Applied to every elements
+* {
+
+} */
+
