@@ -6,7 +6,7 @@ body {
 h1 {
     font-size: 100;
     color: blue;
-
+    
 }
 
 h2 {
@@ -17,22 +17,28 @@ h2 {
 
 }
 
-h3 {
+/* h3 {
     color: blueviolet;
     text-decoration-line:overline;
     text-decoration-style:dashed;
     text-decoration-color: rgb(231, 12, 30);
 
-}
+} */
 
-.fish-list {
+.fish-fact {
     font-style: italic;
+    display: flex;
 
 }
+
+/* .fish-container {
+    display: flex;
+    flex-direction: column;
+} */
 
 .fish-image {
     height: 100px;
-    width: auto;
+    width: 150px;
     float: left;
     padding-right: 8mm;
 
@@ -47,6 +53,20 @@ h3 {
     text-shadow: darkgreen;
     text-justify: auto;
     text-align: center;
+    border:skyblue solid;
+
+}
+
+ul.martin-tip-ul {
+    list-style-type: "🔔";
+    /* padding-left: 1em; */
+    text-indent: 1em;
+
+}
+
+ul {
+    list-style-type: "►";
+    text-indent: 1em;
 
 }
 
@@ -55,3 +75,22 @@ h3 {
 
 }
 
+.column-1 {
+    float: left;
+    padding-right: 150px;
+    flex-direction: column;
+
+}
+
+.column-2 {
+    float: left;
+    padding-right: 180px;
+    padding-top: 80px;
+
+}
+
+.column-3 {
+    /* float: left; */
+    padding-top: 80px;
+
+}
