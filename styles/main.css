@@ -1,8 +1,28 @@
-body {
-    /* background-color: steelblue; */
-    background-image: url("/images/ocean.jpg");
-    background-size:cover;
+/* Applied to every elements
+* {
 
+} */
+
+/* Applied blur background-image
+
+body, html {
+    height: 100%;
+  }
+
+.bg-image {
+    background-image: url("/images/ocean.jpg");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+body {
+    /* background:whitesmoke; */
+    background-image: url("/images/ocean.jpg");
+    background-size: cover;
 }
 
 header {
@@ -10,14 +30,16 @@ header {
     text-align: center;
     font-size: 50px;
     font-weight: bold;
-    margin-bottom: 1.5cm;
+    margin-bottom: 0.5cm;
+    border: oldlace;
 }
 
-/* h1 {
-    font-size: 100;
-    color: blue;
-    
-} */
+hr {
+    width: 70%;
+    height: 3px;
+    background-color: oldlace;
+    color:red;
+}
 
 h2 {
     color: blue;
@@ -25,28 +47,17 @@ h2 {
     text-decoration-style: double;
     text-decoration-color: rgb(122, 119, 119);
     margin: 3mm;
-
 }
-
-/* h3 {
-    color: blueviolet;
-    text-decoration-line:overline;
-    text-decoration-style:dashed;
-    text-decoration-color: rgb(231, 12, 30);
-
-} */
 
 .fish-fact {
     font-style: italic;
     display: flex;
     margin: 5mm;
-
 }
 
 .fish-list-pro {
     font-style: normal;
     color: rgb(236, 96, 124);
-
 }
 
 .fish-image {
@@ -56,13 +67,11 @@ h2 {
     padding-right: 8mm;
     margin-left: 5mm;
     margin-right: -8mm;
-
 }
 
 .travel-tips {
     border:skyblue solid;
-    margin: 5mm;
-    
+    margin: 5mm;  
 }
 
 .havest-location {
@@ -71,68 +80,56 @@ h2 {
     text-align: center;
     border:skyblue solid;
     margin: 5mm;
-
 }
 
 ul {
     list-style-type: "►";
     text-indent: 1em;
-
 }
 
 ul.martin-tip-ul {
     list-style-type: "🔔";
     /* padding-left: 1em; */
     text-indent: 1em;
-
 }
 
 ol {
     font-weight: bold;
     margin: 5mm;
     list-style-type: upper-roman;
-    text-align: justify;
-    
+    text-align: justify; 
 }
 
 .column-1 {
     float: left;
     /* padding-right: 50px; */
     margin-right: 2cm;
+    margin-top: 0.5cm;
     width: fit-content;
     flex-direction: column;
     border: oldlace;
     border-width: 5px;
     border-style: solid;
-
 }
 
 .column-2 {
     float: left;
-    /* padding-right: 50px; */
     margin-right: 2cm;
+    margin-top: 0.5cm;
     width: fit-content;
-    /* flex-direction: column; */
     border: oldlace;
     border-width: 5px;
     border-style: solid;
-    padding-top: 50px;
-
 }
 
 .column-3 {
     float: left;
     width: fit-content;
-    flex-direction: column;
+    margin-top: 0.5cm;
     border: oldlace;
     border-width: 5px;
     border-style: solid;
-    padding-top: 50px;
-
 }
 
-/* Applied to every elements
-* {
 
-} */
 
