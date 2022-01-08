@@ -24,6 +24,7 @@ h2 {
     text-decoration-line: underline;
     text-decoration-style: double;
     text-decoration-color: rgb(122, 119, 119);
+    margin: 3mm;
 
 }
 
@@ -38,20 +39,23 @@ h2 {
 .fish-fact {
     font-style: italic;
     display: flex;
+    margin: 5mm;
 
 }
 
-/* .fish-container {
-    display: flex;
-    flex-direction: column;
-} */
+.fish-list-pro {
+    font-style: normal;
+    color: rgb(236, 96, 124);
+
+}
 
 .fish-image {
     height: 100px;
     width: 150px;
-    float: left;
+    /* float: left; */
     padding-right: 8mm;
     margin-left: 5mm;
+    margin-right: -8mm;
 
 }
 
@@ -70,6 +74,12 @@ h2 {
 
 }
 
+ul {
+    list-style-type: "►";
+    text-indent: 1em;
+
+}
+
 ul.martin-tip-ul {
     list-style-type: "🔔";
     /* padding-left: 1em; */
@@ -77,22 +87,18 @@ ul.martin-tip-ul {
 
 }
 
-ul {
-    list-style-type: "►";
-    text-indent: 1em;
-
-}
-
-.maintenance-tip {
+ol {
     font-weight: bold;
-    margin-left: 5mm;
-
+    margin: 5mm;
+    list-style-type: upper-roman;
+    text-align: justify;
+    
 }
 
 .column-1 {
     float: left;
     /* padding-right: 50px; */
-    margin-right: 3cm;
+    margin-right: 2cm;
     width: fit-content;
     flex-direction: column;
     border: oldlace;
@@ -104,7 +110,7 @@ ul {
 .column-2 {
     float: left;
     /* padding-right: 50px; */
-    margin-right: 3cm;
+    margin-right: 2cm;
     width: fit-content;
     /* flex-direction: column; */
     border: oldlace;
