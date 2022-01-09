@@ -1,135 +1,110 @@
-/* Applied to every elements
-* {
-
+/* * {
+    outline: 1px dotted red
 } */
 
-/* Applied blur background-image
-
-body, html {
-    height: 100%;
-  }
-
-.bg-image {
-    background-image: url("/images/ocean.jpg");
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+/* .bg-image {
+    background-image: url("/images/ha-long-bay.jpg");
     background-size: cover;
 } */
 
 body {
-    /* background:whitesmoke; */
-    background-image: url("/images/ocean.jpg");
+    background-image: url("/images/ha-long-bay.jpg");
     background-size: cover;
 }
 
 header {
-    color: red;
     text-align: center;
+    color: red;
     font-size: 50px;
     font-weight: bold;
-    margin-bottom: 0.5cm;
-    border: oldlace;
 }
 
 hr {
-    width: 70%;
+    width: 80%;
     height: 3px;
-    background-color: oldlace;
+    background-color: blueviolet;
     color:red;
 }
 
+br {
+    line-height:300%;
+}
+
 h2 {
-    color: blue;
+    color:blue;
     text-decoration-line: underline;
     text-decoration-style: double;
-    text-decoration-color: rgb(122, 119, 119);
-    margin: 3mm;
+    text-decoration-color: lightblue;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: upper-roman;
+    color:seashell;
+}
+ul.fish-fact-ul {
+    list-style-type: square;
+    color:seashell;
+}
+ul.travel-and-location-tip-ul {
+    list-style-type: "🔔  ";
+    color:seashell;
+}
+
+li span {
+    color: gold;
+    font-weight: bold;    
+}
+
+.fish-collection {
+    padding: 5px;
 }
 
 .fish-fact {
-    font-style: italic;
     display: flex;
-    margin: 5mm;
-}
-
-.fish-list-pro {
-    font-style: normal;
-    color: rgb(236, 96, 124);
 }
 
 .fish-image {
     height: 100px;
     width: 150px;
-    /* float: left; */
-    padding-right: 8mm;
-    margin-left: 5mm;
-    margin-right: -8mm;
-}
-
-.travel-tips {
-    border:skyblue solid;
-    margin: 5mm;  
-}
-
-.havest-location {
-    text-shadow: darkgreen;
-    text-justify: auto;
-    text-align: center;
-    border:skyblue solid;
-    margin: 5mm;
-}
-
-ul {
-    list-style-type: "►";
-    text-indent: 1em;
-}
-
-ul.martin-tip-ul {
-    list-style-type: "🔔";
-    /* padding-left: 1em; */
-    text-indent: 1em;
-}
-
-ol {
-    font-weight: bold;
-    margin: 5mm;
-    list-style-type: upper-roman;
-    text-align: justify; 
 }
 
 .column-1 {
     float: left;
-    /* padding-right: 50px; */
-    margin-right: 2cm;
-    margin-top: 0.5cm;
-    width: fit-content;
-    flex-direction: column;
-    border: oldlace;
-    border-width: 5px;
+    width:calc(32vw);
+    border:lightgreen;
+    border-width: 2px;
     border-style: solid;
+    margin-top: 5mm;
+    padding: 3mm;
 }
 
 .column-2 {
     float: left;
-    margin-right: 2cm;
-    margin-top: 0.5cm;
-    width: fit-content;
-    border: oldlace;
-    border-width: 5px;
+    flex-direction: column;
+    width:calc(31vw);
+    margin: 5mm;
+    border:lightgreen;
+    border-width: 2px;
     border-style: solid;
+    padding: 3mm;
+    padding-bottom: 9mm;
+}
+
+.travel-and-location-tip {
+    margin: 3px;
+    color:seashell;
 }
 
 .column-3 {
     float: left;
-    width: fit-content;
-    margin-top: 0.5cm;
-    border: oldlace;
-    border-width: 5px;
+    width:calc(25vw);
+    margin-top: 5mm;
+    border:lightgreen;
+    border-width: 2px;
     border-style: solid;
+    padding: 5px;
+    font-weight: bold;
+    padding: 3mm;
+    padding-bottom: 84mm ;    
 }
-
-
-
